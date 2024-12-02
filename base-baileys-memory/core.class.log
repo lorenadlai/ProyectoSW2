@@ -1,0 +1,624 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: 'F798C780E8F12B15F8BF9EF5F85A0B34',
+    participant: undefined
+  },
+  messageTimestamp: 1733091116,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ef8e2c84-0258-4c15-9c51-0ac44c572d15',
+  keyword: 'key_bdeaf3a1-8bbd-4eb2-b2f7-247d77b34afb',
+  answer: '¡Hola! Vamos a realizar una consulta vehicular. Por favor responde a las siguientes preguntas.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'a514974cb102aad0470e8026ddfc6cd8'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_935e710f-448d-4663-acf1-b6e68424196e',
+  keyword: 'ans_ef8e2c84-0258-4c15-9c51-0ac44c572d15',
+  answer: '¿Cuál es tu nombre (oficial)?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '386775d4e1fe7aa5cf62be47a41861ce'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: '961B35E6F31EFB5272ED39850FC20582',
+    participant: undefined
+  },
+  messageTimestamp: 1733091120,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: 'Luis',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Luis',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b10fb17b-89de-4f18-a2bc-0cdee930d706',
+  keyword: 'ans_935e710f-448d-4663-acf1-b6e68424196e',
+  answer: '¿Cuál es tu apellido (oficial)?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '891e8c2463afd54cded86d00fc0bc8ac'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: '4C7ADEE87AEB44C814E33FC891ABA009',
+    participant: undefined
+  },
+  messageTimestamp: 1733091122,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: 'Perez',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Perez',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_27813e17-f265-4b06-9412-63f5c952b34d',
+  keyword: 'ans_b10fb17b-89de-4f18-a2bc-0cdee930d706',
+  answer: '¿Cuál es tu número de solicitud?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '80fc2b99a47cb072dc8e266e73ddd505'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: '56BFE1BBA67C19D380A6C4BAF2593970',
+    participant: undefined
+  },
+  messageTimestamp: 1733091126,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: '6783',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '6783',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b85c9ff1-8277-40c5-b1c7-efa25a273c8c',
+  keyword: 'ans_27813e17-f265-4b06-9412-63f5c952b34d',
+  answer: '¿Cuál es el nombre del detenido (en caso de que no aplique, poner .)?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '86545dc01c2cdc652943c11ecc00efce'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: '5AE7A863076A94CC14B3EDD5406D5FC3',
+    participant: undefined
+  },
+  messageTimestamp: 1733091135,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hector',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hector',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b710f9e1-8397-4836-84a5-9547691464a4',
+  keyword: 'ans_b85c9ff1-8277-40c5-b1c7-efa25a273c8c',
+  answer: '¿Cuál es el apellido del detenido (en caso de que no aplique, poner .)?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3f3261df09fd73aed19ea4d437a3556d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: 'BC4ECFC01971D1B7A4D673D218FD0058',
+    participant: undefined
+  },
+  messageTimestamp: 1733091138,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ruiz',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Ruiz',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_96b00ac8-3c75-4d5e-9b5d-4416477d7af1',
+  keyword: 'ans_b710f9e1-8397-4836-84a5-9547691464a4',
+  answer: '¿Cuál es la placa del vehículo (en caso de que no aplique, poner .)?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '60c3573a30f2ca92dc3aa7fd27bc2f99'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: 'DDF5846361E20B38A35F066FA3691DA3',
+    participant: undefined
+  },
+  messageTimestamp: 1733091140,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: '.',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '.',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8d9d92ae-c50c-4742-83e8-56097fc507b9',
+  keyword: 'ans_96b00ac8-3c75-4d5e-9b5d-4416477d7af1',
+  answer: '¿Cuál es el número de serie del vehículo (en caso de que no aplique, poner .)?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '76ae2e4ea0a35d95031ce3e080197cf6'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: 'C0B98862698C27BB129D53B0A685D043',
+    participant: undefined
+  },
+  messageTimestamp: 1733091142,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: '.',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '.',
+  from: '5214445745066'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: 'A1D219A76020D1C615E671DD8C00E7F3',
+    participant: undefined
+  },
+  messageTimestamp: 1733100637,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ef8e2c84-0258-4c15-9c51-0ac44c572d15',
+  keyword: 'key_bdeaf3a1-8bbd-4eb2-b2f7-247d77b34afb',
+  answer: '¡Hola! Vamos a realizar una consulta vehicular. Por favor responde a las siguientes preguntas.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'a514974cb102aad0470e8026ddfc6cd8'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_935e710f-448d-4663-acf1-b6e68424196e',
+  keyword: 'ans_ef8e2c84-0258-4c15-9c51-0ac44c572d15',
+  answer: '¿Cuál es tu nombre (oficial)?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '386775d4e1fe7aa5cf62be47a41861ce'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: '7D6CDBE45A96A4241589627D4AE453E4',
+    participant: undefined
+  },
+  messageTimestamp: 1733100642,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: 'Jose',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Jose',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b10fb17b-89de-4f18-a2bc-0cdee930d706',
+  keyword: 'ans_935e710f-448d-4663-acf1-b6e68424196e',
+  answer: '¿Cuál es tu apellido (oficial)?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '891e8c2463afd54cded86d00fc0bc8ac'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: '3993D9CFA820D92DF578C0BAF8804F0C',
+    participant: undefined
+  },
+  messageTimestamp: 1733100645,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: 'Tuiz',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Tuiz',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_27813e17-f265-4b06-9412-63f5c952b34d',
+  keyword: 'ans_b10fb17b-89de-4f18-a2bc-0cdee930d706',
+  answer: '¿Cuál es tu número de solicitud?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '80fc2b99a47cb072dc8e266e73ddd505'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: '3F412FC32C84AD3534B8A741C9293812',
+    participant: undefined
+  },
+  messageTimestamp: 1733100648,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: '1689',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '1689',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b85c9ff1-8277-40c5-b1c7-efa25a273c8c',
+  keyword: 'ans_27813e17-f265-4b06-9412-63f5c952b34d',
+  answer: '¿Cuál es el nombre del detenido (en caso de que no aplique, poner .)?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '86545dc01c2cdc652943c11ecc00efce'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: '8FF1D006921AFFE62D5C37F25E6718BE',
+    participant: undefined
+  },
+  messageTimestamp: 1733100653,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: 'Luis',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Luis',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b710f9e1-8397-4836-84a5-9547691464a4',
+  keyword: 'ans_b85c9ff1-8277-40c5-b1c7-efa25a273c8c',
+  answer: '¿Cuál es el apellido del detenido (en caso de que no aplique, poner .)?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3f3261df09fd73aed19ea4d437a3556d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: 'BA3D977D172B7B86236734BF170CD31C',
+    participant: undefined
+  },
+  messageTimestamp: 1733100656,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: 'Turu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Turu',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_96b00ac8-3c75-4d5e-9b5d-4416477d7af1',
+  keyword: 'ans_b710f9e1-8397-4836-84a5-9547691464a4',
+  answer: '¿Cuál es la placa del vehículo (en caso de que no aplique, poner .)?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '60c3573a30f2ca92dc3aa7fd27bc2f99'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: 'FAB1F37FB933A795FABACEA984603A90',
+    participant: undefined
+  },
+  messageTimestamp: 1733100659,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: '.',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '.',
+  from: '5214445745066'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8d9d92ae-c50c-4742-83e8-56097fc507b9',
+  keyword: 'ans_96b00ac8-3c75-4d5e-9b5d-4416477d7af1',
+  answer: '¿Cuál es el número de serie del vehículo (en caso de que no aplique, poner .)?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '76ae2e4ea0a35d95031ce3e080197cf6'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214445745066@s.whatsapp.net',
+    fromMe: false,
+    id: '03193AFBE5442CA32729CC5F396C92BD',
+    participant: undefined
+  },
+  messageTimestamp: 1733100660,
+  pushName: 'Noe Liceaga',
+  broadcast: false,
+  message: Message {
+    conversation: '.',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '.',
+  from: '5214445745066'
+}
