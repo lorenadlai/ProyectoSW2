@@ -131,7 +131,7 @@ const getPersonDetails = async (request_number) => {
         const response = await axios.get(`http://127.0.0.1:8000/api/v1/get_incidencias?request_number=${request_number}`);
         personDetails.value = response.data;
         console.log(personDetails.value)
-        dialogVisible2.value = true;
+
     } catch (error) {
         console.error('Error al obtener detalles de la persona:', error);
     }
@@ -148,6 +148,7 @@ const getPersona = async (nombre, apellido) => {
     });
 
     persona_detenido.value = response.data;
+    dialogVisible2.value = true;
     console.log("Persona Obtenida: ", persona_detenido.value)
   } catch (error) {
     console.error('Error al obtener detalles de la persona:', error);
@@ -160,13 +161,14 @@ const validateRequest = (item) => {
     detenidoDetails.value = item
     getPersonDetails(item.request_number)
     getVehicleDetails(item.plate, item.serial_number)
+  }else{
+    if(item.serial_number == '.'){ //datos de personas
+      detenidoDetails.value = item
+      console.log('Detenido Details: ', detenidoDetails.value)
+      getPersonDetails(item.request_number)
+      getPersona(item.person_name, item.person_last_name)
+    } 
   }
-  if(item.serial_number == '.'){ //datos de personas
-    detenidoDetails.value = item
-    console.log('Detenido Details: ', detenidoDetails.value)
-    getPersonDetails(item.request_number)
-    getPersona(item.person_name, item.person_last_name)
-  } 
 }
 const enviarDatosVehiculo = (item) => {
   console.log("Contenido Item: ", item)
@@ -411,6 +413,7 @@ onMounted(() => {
           </v-card-actions>
         </v-card>
       </v-dialog>
+
       <!-- Modal para mostrar los detalles de la persona -->
       <v-dialog v-model="dialogVisible2" max-width="800px">
       <v-card>
